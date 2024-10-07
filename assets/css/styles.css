@@ -17,6 +17,12 @@ body {
   min-height: 100%;
   line-height: 1;
   font-family: sans-serif;
+  background-color: white;
+}
+
+.dark-mode{
+  background-color: var(--dark);
+  color: var(--light);
 }
 
 ​h1,
