@@ -13,7 +13,7 @@ const newElement = function (type, className, text) {
 // TODO: Create a function that handles the case where there are no blog posts to display
 //bring in the error message here, it's in a p tag
 const noPosts = function () {
-  newElement('p', 'no-posts', 'No blog posts to display.');
+  const post =('p', 'no-posts', 'No blog posts to display.');
 };
 
 // TODO: Create a function called `renderBlogList` that renders the list of blog posts if they exist. If not, call the no posts function.
