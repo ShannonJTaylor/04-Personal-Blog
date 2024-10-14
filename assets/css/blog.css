@@ -38,7 +38,7 @@ article p {
 body {}
 
 footer {
-  position: fixed;
+  position: relative;
   inset: 0;
   top: calc(100% - 5rem);
 }
