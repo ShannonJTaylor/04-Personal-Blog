@@ -1,6 +1,7 @@
 // TODO: Create a variable that selects the main element, and a variable that selects the back button element
 const main= document.getElementById('main');
 const backButton = document.getElementById('back-button');
+const toggle=document.querySelector(`#toggle`);
 
 // TODO: Create a function that builds an element and appends it to the DOM
 const newElement = function (type, className, text) {

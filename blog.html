@@ -17,12 +17,24 @@
 <body>
 
   <!-- TODO: Create header, main, and footer elements -->
+   <!--What image do you want to leverage for standard viewing-->
+   <!--What ikmage do you want to leverage for dark viewing-->
+   <!--What will keep track of the current slection?-->
    <header>
     <h1>My First Blog</h1>
     <input type="button" value="Back" onclick="window.location.href='index.html'">
+    <div class ="toggle-container dark">
+      <toggle id ="toggle" onclick=" ">
+      <img src="/assets/images/sunIcon.png"
+      data-light="assets/images/sunIcon.png"
+      data-dark="assets/images/moonIcon.png"
+      data-state="light">
+      </toggle>
+    </div>
   </header>
 
   <main>
+
     <article>
       <h2>My First Blog Post</h2>
       <p>
@@ -31,6 +43,7 @@
         lacinia turpis elit sit amet eros. Nullam nec odio nec nunc ultricies
         tincidunt. Nullam nec odio nec nunc ultricies tincidunt. Nullam nec
         odio nec nunc
+      </p>
     </article>
 
 
