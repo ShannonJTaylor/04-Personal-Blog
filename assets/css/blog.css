@@ -35,7 +35,17 @@ article p {
   opacity: .75;
 }
 
-body {}
+body {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: stretch;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--light);
+  color: var(--dark);
+  margin: 0;
+  padding: 0;
+}
 
 footer {
   position: relative;
