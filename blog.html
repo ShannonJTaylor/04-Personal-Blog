@@ -22,7 +22,7 @@
    <!--What will keep track of the current slection?-->
    <header>
     <h1>My First Blog</h1>
-    <input type="button" value="Back" onclick="window.location.href='index.html'">
+    <button type="button" id="Back-button" onclick="window.location.href='index.html'">Back</button>
     <div class ="toggle-container dark">
       <toggle id ="toggle" onclick=" ">
       <img src="/assets/images/sunIcon.png"
@@ -33,9 +33,9 @@
     </div>
   </header>
 
-  <main>
+  <main id="main">
 
-    <article>
+    <section id="blogPosts">
       <h2>My First Blog Post</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
